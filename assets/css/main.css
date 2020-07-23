@@ -1995,7 +1995,7 @@ input, select, textarea {
 
 		.description section {
 			padding: 3.5em 3em 1em 7em ;
-			/* width: 50%; */
+			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
@@ -2559,7 +2559,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #4e96b7;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3263,7 +3263,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #b0b4b4;
 		}
 
 		.wrapper.style3-alt {
