@@ -1993,12 +1993,12 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		.description section {
+		/* .description section {
 			padding: 3.5em 3em 1em 7em ;
 			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
-		}
+		} */
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
