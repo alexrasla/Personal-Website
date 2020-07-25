@@ -270,7 +270,15 @@
 								<section>
 									<span class="icon solid major fa-users"></span>
 									<h3> Computer Science Peer Advisor </h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<p> As the UCSB department of computer science peer I was given<span id="dotsCS">...</span><span id="moreCS" style="display:none;">a variety of important tasks to help the department run smoothly and help fellow students. 
+										My main job was to advise CS undergraduate students with classes, scheduling, switching majors, general help, and job opportunities. I was also tasked with assisting with the departmental calendar — booking rooms for classes, disabled students program exams, and special events. 
+										I also severed on two meeting boards as a representative of undergraduate CS students, and frequently assisted faculty about their needs and concerns.
+										</span>
+
+									</p>
+									<ul class="actions">
+										<li><a onclick="moreLess('CS')" class="button" id="readBtnCS">Read More</a></li>
+									</ul>
 								</section>
 							</div>
 				
@@ -375,6 +383,32 @@
 						moreText.style.display = "inline";
 					}
 				}
+			</script>
+			<script>
+				$(document).ready(function(){
+					// Add smooth scrolling to all links
+					$("a").on('click', function(event) {
+
+						// Make sure this.hash has a value before overriding default behavior
+						if (this.hash !== "") {
+						// Prevent default anchor click behavior
+						event.preventDefault();
+
+						// Store hash
+						var hash = this.hash;
+
+						// Using jQuery's animate() method to add smooth page scroll
+						// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top
+						}, 1000, function(){
+					
+							// Add hash (#) to URL when done scrolling (default click behavior)
+							window.location.hash = hash;
+						});
+						} // End if
+					});
+				});
 			</script>
 
 			<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
