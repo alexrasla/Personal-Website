@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Alex Rasla</title>
@@ -292,7 +288,7 @@
 							<p> If you would like to contact me, please use the form below or send me an email. </p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="" enctype="text/plain">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -308,7 +304,7 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><a href="emailScript.php" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
 								</section>
@@ -319,7 +315,7 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">alex.rasla@me.com</a>
+											<a href="mailto:alex.rasla@me.com" target="_b">alex.rasla@me.com</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
@@ -329,8 +325,8 @@
 											<h3>Social</h3>
 											<ul class="icons">
 												<li><a href="https://www.linkedin.com/in/alex-rasla-53899b159/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-												<li><a href="https://github.com/alexrasla" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.facebook.com/alex.rasla/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>											
+												<li><a href="https://github.com/alexrasla" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.facebook.com/alex.rasla/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>											
 											</ul>
 										</li>
 										
@@ -359,13 +355,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
+			<script> //typing at begining
 				var typed = new Typed('#typed', {
 					stringsElement: '#typed-strings', typeSpeed: 50, backSpeed: 50, loop: true
 				});
 			
 			</script>
-			<script>
+			<script> //more less button
 				function moreLess(element) {
 		
 					var	dots = document.getElementById("dots" + element);
@@ -384,7 +380,7 @@
 					}
 				}
 			</script>
-			<script>
+			<script> //scrolling
 				$(document).ready(function(){
 					// Add smooth scrolling to all links
 					$("a").on('click', function(event) {
@@ -411,7 +407,6 @@
 				});
 			</script>
 
-			<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 	</body>
