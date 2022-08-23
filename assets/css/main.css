@@ -3078,6 +3078,30 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+		.spotlights > section:nth-child(8) {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+
+		.spotlights > section:nth-child(9) {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3255,7 +3279,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #75909b;
 		}
 
 		.wrapper.style2-alt {
@@ -3881,10 +3905,10 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		/* background-image: url("images/headshot.JPG"); */
+		background-image: url("images/profile_thumbnail.jpeg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 90% 110%;
 
 		
 	}
